@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+    background-color: rgb(238, 236, 236);
+    font-family: sans-serif;
+}
+.img{
+    background-image: url(../Images/photo-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clock{
+    color:  rgb(41, 41, 41);
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+span, .p1, .btn {
+    color: rgb(41, 41, 41);
+
+}
+span{
+    font-size: 40px;
+    text-shadow: 1px 1px green;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+.p1{
+    font-size: 20px;
+}
+
+.btn{
+    margin: 30px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    border: 2px solid rgb(70, 69, 69);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+.btn a:hover{
+    box-shadow: 2px 2px 2px green;
+    border: 2px solid rgb(47, 71, 47);
+    color: rgb(43, 42, 42);
+    
+}
+.txt-a{
+    display: flex;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: rgb(82, 81, 81);
+    
+}
+.text1, .text3{
+    background-color: rgb(146, 145, 145);
+    
+} 
+
+
+.txt-a  .text{
+    padding: 40px;
+}
+
+
